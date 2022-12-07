@@ -1,0 +1,54 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  width: 11%;
+  z-index: 20;
+}
+
+.navbar-list {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.navbar-list button {
+  background: none;
+  border: none;
+  padding: 3px;
+}
+
+.navbar-list button:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.navbar-btn {
+  width: 20%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container h2 {
+  font-size: 15px;
+  font-family: "Roboto-Light";
+}
+
+.active-item {
+  font-size: 15px;
+  font-family: "Roboto-Light";
+  background-color: black;
+  color: white;
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    display: none;
+  }
+}

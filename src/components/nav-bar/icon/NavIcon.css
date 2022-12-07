@@ -1,0 +1,25 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.nav-icon-top {
+  background-color: black;
+  height: 3px;
+  width: 45%;
+}
+
+.nav-icon-mid {
+  background-color: black;
+  height: 3px;
+  width: 80%;
+}
+
+.nav-icon-bot {
+  background-color: black;
+  height: 3px;
+  width: 65%;
+}

@@ -1,0 +1,16 @@
+.v-divider-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.rombo {
+  width: 13px;
+  height: 13px;
+  background: #171717;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

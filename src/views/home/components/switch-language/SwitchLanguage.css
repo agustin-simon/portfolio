@@ -1,0 +1,28 @@
+.switch-container {
+  width: 70px;
+  height: 25px;
+  border-radius: 60px;
+  background-color: rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 4px;
+}
+
+.switch-container-end {
+  width: 70px;
+  height: 25px;
+  border-radius: 60px;
+  background-color: rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 4px;
+}
+
+.switch-item {
+  background-color: rgb(254, 254, 254);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}

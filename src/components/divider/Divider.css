@@ -1,0 +1,17 @@
+.divider-container {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.divider-item {
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

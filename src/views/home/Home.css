@@ -1,0 +1,49 @@
+/* Layout */
+.home-container {
+  display: flex;
+}
+
+.nav-place {
+  width: 11%;
+  height: 200vh;
+}
+
+.screen-place {
+  width: 100%;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.divider div {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .nav-place {
+    display: none;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 1024px) {
+  .nav-place {
+    width: 12.8%;
+    height: 200vh;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 1440px) {
+  .nav-place {
+    width: 11%;
+    height: 200vh;
+  }
+}

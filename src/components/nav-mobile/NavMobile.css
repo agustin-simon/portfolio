@@ -1,0 +1,23 @@
+.nav-mobile-container {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  padding: 10px;
+  font-family: "Roboto-Light";
+  box-shadow: 0 0 5px 6px rgba(221, 221, 221, 0.65);
+}
+
+.nav-mobile-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-container {
+    display: none;
+  }
+}

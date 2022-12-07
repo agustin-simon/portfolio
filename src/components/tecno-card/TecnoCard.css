@@ -1,0 +1,73 @@
+.tecno-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(251, 251, 251);
+  border-radius: 2px;
+  min-height: 80px;
+  min-width: 80px;
+  padding: 5px;
+  box-shadow: 0 0 10px 5px rgba(202, 202, 202, 0.355);
+}
+
+.logo-card {
+  padding: 20px;
+}
+
+.tecno-card {
+  padding: 5px;
+  border-top: 1px solid rgba(225, 225, 225, 0.641);
+  font-family: "Roboto-Medium";
+  font-size: 14px;
+}
+
+.icon-card {
+  animation: zoomOut 2s;
+}
+
+@media screen and (min-width: 768px) {
+  .tecno-card-container {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .tecno-card-container:hover {
+    background-color: rgb(47, 47, 47);
+    color: white;
+    box-shadow: 0 0 10px 5px rgba(143, 142, 142, 0.626);
+  }
+
+  .tecno-card-container:hover .icon-card {
+    animation: zoomIn 2s;
+    transform: scale(1.6);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tecno-card-container {
+    padding: 5px;
+    height: 120px;
+    width: 120px;
+  }
+}
+
+/* Animations */
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.6);
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.6);
+  }
+  to {
+    transform: scale(1);
+  }
+}
