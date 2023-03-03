@@ -1,0 +1,21 @@
+.observer-container {
+  width: 100%;
+  height: 200px;
+}
+
+.observer-container-before {
+  height: auto;
+}
+
+.fadeInAnim {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
