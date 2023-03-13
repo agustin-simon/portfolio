@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "./PageBtn.css";
 
 interface Props {
@@ -5,9 +6,10 @@ interface Props {
 }
 
 const PageBtn: React.FC<Props> = ({ link }) => {
+  const [t] = useTranslation("global");
   return (
     <a href={link} target="_blank" className="btn-aref">
-      <button className="btn-page-container">Ver</button>
+      <button className="btn-page-container">{t("button.title")}</button>
     </a>
   );
 };

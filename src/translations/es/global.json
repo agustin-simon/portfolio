@@ -1,0 +1,27 @@
+{
+  "first": {
+    "my-name": "Hola, mi nombre es"
+  },
+  "secondary": {
+    "about-me": "Sobre mí",
+    "description": "Soy estudiante de Tecnicatura en Desarrollo de Aplicaciones Informáticas en la universidad UNICEN, y mi objetivo es desarrollar los conocimientos adquiridos durante la carrera y continuar aprendiendo sobre la profesión."
+  },
+  "third": {
+    "title": "Proyectos",
+    "subtitle": "Personales",
+    "first-project": "Proyecto personal sobre el desarrollo de una e-commerce web orientado a la venta de productos deportivos. Esta desarrollada con ReactJS, tambien utiliza Redux para obtener y guardar los productos dentro del estado, ademas TypeScript y el framework chakra ui.",
+    "secondary-project": "Proyecto personal creado con el objetivo de facilitar el acceso de las personas a partidos de futbol, en los cuales puedan participar, creas tu partido buscando jugadores o buscas partidos que lo necesiten. Esta desarrollado en ReactJS, utilizando Ionic para mobile y el framework Chakra Ui."
+  },
+  "fourth": {
+    "title": "Tecnologías"
+  },
+  "button": {
+    "title": "Ver"
+  },
+  "nav-items": {
+    "home": "Inicio",
+    "about-me": "Sobre mí",
+    "projects": "Proyectos",
+    "tecnologys": "Tecnologías"
+  }
+}

@@ -1,6 +1,10 @@
+import { useTranslation } from "react-i18next";
+
+const [t] = useTranslation("global");
+
 const navData = [
   {
-    name: "Home",
+    name: <>{t("nav-items.home")}</>,
     isVisible: false,
   },
   {

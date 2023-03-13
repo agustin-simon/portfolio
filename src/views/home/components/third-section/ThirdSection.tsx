@@ -9,14 +9,17 @@ import itemsDataTwo from "../languages-items-list/items-data/ItemsDataTwo";
 //assets
 import phones from "../../../../assets/images/phones.png";
 import ObserverAdapter from "../../../../components/observer-adapter/ObserverAdapter";
+import { useTranslation } from "react-i18next";
 
 const ThirdSection: React.FC = () => {
+  const [t] = useTranslation("global");
+
   return (
     <div className="third-container">
       <div className="title-box">
         <div className="bg-title"></div>
-        <h2>PROJECTS</h2>
-        <h4>P e r s o n a l s</h4>
+        <h2>{t("third.title")}</h2>
+        <h4>{t("third.subtitle")}</h4>
       </div>
 
       <ObserverAdapter
@@ -26,13 +29,7 @@ const ThirdSection: React.FC = () => {
               <img src={firstWeb} />
             </div>
             <div className="web-image-r">
-              <p>
-                Proyecto personal sobre el desarrollo de una e-commerce web
-                orientado a la venta de productos deportivos. Esta desarrollada
-                con ReactJS, tambien utiliza Redux para obtener y guardar los
-                productos dentro del estado, ademas TypeScript y el framework
-                chakra ui.
-              </p>
+              <p>{t("third.first-project")}</p>
               <LanguagesItemsList list={itemsData} />
               <PageBtn link="https://agustin-simon.github.io/e-commerce-web/" />
             </div>
@@ -46,15 +43,9 @@ const ThirdSection: React.FC = () => {
               <img src={phones} />
             </div>
             <div className="web-image-r">
-              <p>
-                Proyecto personal creado con el objetivo de facilitar el acceso
-                de las personas a partidos de futbol, en los cuales puedan
-                participar, creas tu partido buscando jugadores o buscas
-                partidos que lo necesiten. Esta desarrollado en ReactJS,
-                utilizando Ionic para mobile y el framework Chakra Ui.
-              </p>
+              <p>{t("third.secondary-project")}</p>
               <LanguagesItemsList list={itemsDataTwo} />
-              <PageBtn link="" />
+              <PageBtn link="https://github.com/agustin-simon/ionic-node-app" />
             </div>
           </div>
         }

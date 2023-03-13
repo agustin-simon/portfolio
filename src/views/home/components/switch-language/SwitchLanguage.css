@@ -5,8 +5,9 @@
   background-color: rgb(208, 208, 208);
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   padding: 4px;
+  position: relative;
 }
 
 .switch-container-end {
@@ -16,13 +17,59 @@
   background-color: rgb(208, 208, 208);
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   padding: 4px;
+  position: relative;
 }
 
 .switch-item {
+  position: absolute;
   background-color: rgb(254, 254, 254);
   border-radius: 100%;
   width: 25px;
   height: 25px;
+}
+
+.switch-anim-inv {
+  left: 12%;
+  animation: moveSwitch 0.5s;
+}
+
+.switch-anim {
+  left: 55%;
+  animation: invertMoveSwitch 0.5s;
+}
+
+.text-selection-disable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cont h4 {
+  text-align: center;
+  font-family: "Roboto-Bold";
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+@keyframes moveSwitch {
+  from {
+    left: 60%;
+  }
+  to {
+    left: 12%;
+  }
+}
+
+@keyframes invertMoveSwitch {
+  from {
+    left: 12%;
+  }
+  to {
+    left: 55%;
+  }
 }

@@ -10,15 +10,18 @@ import {
 } from "react-icons/si";
 import "./FourthSection.css";
 import ObserverAdapter from "../../../../components/observer-adapter/ObserverAdapter";
+import { useTranslation } from "react-i18next";
 
 const FourthSection: React.FC = () => {
+  const [t] = useTranslation("global");
+
   return (
     <ObserverAdapter
       childComp={
         <div className="fourth-section">
           <div className="title-box">
             <div className="bg-title"></div>
-            <h2>TECNOLOGYS</h2>
+            <h2>{t("fourth.title")}</h2>
           </div>
 
           <div className="tecno-list">

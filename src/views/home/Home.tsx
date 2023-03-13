@@ -12,15 +12,18 @@ import { MutableRefObject, useRef } from "react";
 //hooks
 import { useScrollTo } from "../../hooks/useScrollTo";
 import Divider from "../../components/divider/Divider";
+import { useTranslation } from "react-i18next";
 
 //models
 interface Item {
   refElem: MutableRefObject<HTMLInputElement | null>;
-  name: string;
+  name: any;
   isVisible: boolean;
 }
 
 const Home: React.FC = () => {
+  const [t] = useTranslation("global");
+
   const [mainRef, firstIsVisible] = useInView({
     root: null,
     rootMargin: "-22%",
@@ -67,22 +70,22 @@ const Home: React.FC = () => {
   const objs: Item[] = [
     {
       refElem: elemMainRef,
-      name: "Home",
+      name: <>{t("nav-items.home")}</>,
       isVisible: firstIsVisible,
     },
     {
       refElem: elemSecondRef,
-      name: "About me",
+      name: <>{t("nav-items.about-me")}</>,
       isVisible: secondIsVisible,
     },
     {
       refElem: elemThirdRef,
-      name: "Projects",
+      name: <>{t("nav-items.projects")}</>,
       isVisible: thirdIsVisible,
     },
     {
       refElem: elemFourthRef,
-      name: "Tecnologys",
+      name: <>{t("nav-items.tecnologys")}</>,
       isVisible: fourthIsVisible,
     },
   ];

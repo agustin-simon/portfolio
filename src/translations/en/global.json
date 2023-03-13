@@ -1,0 +1,27 @@
+{
+  "first": {
+    "my-name": "Hi, my name is"
+  },
+  "secondary": {
+    "about-me": "About me",
+    "description": "I am a student of Tecnicatura en Desarrollo de Aplicaciones at UNICEN University and my goal is to develop the knowledge acquired during my studies continue learning about the profession."
+  },
+  "third": {
+    "title": "Projects",
+    "subtitle": "Personals",
+    "first-project": "Personal project about the development of an e-commerce web oriented to the sale of sports products. It is developed with ReactJS, it also uses Redux to get and store the products inside the state, plus TypeScript and the chakra ui framework.",
+    "secondary-project": "Personal project created with the aim of facilitating the access of people to soccer matches, in which they can participate, you create your match looking for players or search for matches that need it. It is developed in ReactJS, using Ionic for mobile and the Chakra Ui framework."
+  },
+  "fourth": {
+    "title": "Tecnologys"
+  },
+  "button": {
+    "title": "Watch"
+  },
+  "nav-items": {
+    "home": "Home",
+    "about-me": "About me",
+    "projects": "Projects",
+    "tecnologys": "Tecnologys"
+  }
+}
