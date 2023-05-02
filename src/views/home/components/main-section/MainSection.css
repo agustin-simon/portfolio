@@ -56,7 +56,12 @@
   }
 
   .main-right .main-img {
-    background-color: rgb(9, 241, 21);
+    background-image: url("../../../../assets/images/agustin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     width: 225px;
     height: 225px;
   }
@@ -80,9 +85,14 @@
 /* 768px */
 @media screen and (min-width: 768px) {
   .main-right .main-img {
-    background-color: rgb(9, 241, 21);
-    width: 165px;
-    height: 165px;
+    background-image: url("../../../../assets/images/agustin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    width: 195px;
+    height: 195px;
   }
 
   .main-left h3 {
@@ -99,7 +109,12 @@
 /* 1440px */
 @media screen and (min-width: 1440px) {
   .main-right .main-img {
-    background-color: rgb(9, 241, 21);
+    background-image: url("../../../../assets/images/agustin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     width: 280px;
     height: 280px;
   }
@@ -116,7 +131,12 @@
 /* 1920px */
 @media screen and (min-width: 1920px) {
   .main-right .main-img {
-    background-color: rgb(9, 241, 21);
+    background-image: url("../../../../assets/images/agustin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     width: 360px;
     height: 360px;
   }
